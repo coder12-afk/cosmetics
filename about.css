@@ -1,0 +1,49 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefae0;
+    color: #283618;
+    text-align: center;
+}
+
+/* Section Styles */
+.about-section, .story-section, .why-choose, .product-approach {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #bc6c25;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+strong {
+    color: #dda15e;
+}
+
+/* Product Approach Section */
+.product-approach {
+    background-color: #606c38;
+    color: #fefae0;
+    border-radius: 10px;
+    padding: 50px 20px;
+}
+
+.approach-item {
+    margin-bottom: 20px;
+}
+
+.approach-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #dda15e;
+}

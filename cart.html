@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffffff;
+        }
+
+        .cart-container {
+            max-width: 600px;
+            width: 100%;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .cart-heading {
+            font-size: 28px;
+            font-weight: 500;
+            margin-bottom: 30px;
+            letter-spacing: 0.5px;
+        }
+
+        .empty-cart-message {
+            color: #6b6b6b;
+            font-size: 18px;
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+
+        .continue-shopping {
+            display: inline-block;
+            padding: 14px 35px;
+            background-color: #000000;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 16px;
+            transition: background-color 0.2s;
+            margin-bottom: 25px;
+        }
+
+        .continue-shopping:hover {
+            background-color: #333333;
+        }
+
+        .share-section {
+            font-size: 16px;
+        }
+
+        .share-link {
+            color: #000000;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        .share-link:hover {
+            border-bottom-color: #000000;
+        }
+
+        @media (max-width: 768px) {
+            .cart-container {
+                padding: 30px 15px;
+            }
+            
+            .cart-heading {
+                font-size: 24px;
+            }
+            
+            .empty-cart-message {
+                font-size: 16px;
+            }
+            
+            .continue-shopping {
+                padding: 12px 30px;
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cart-container">
+        <h1 class="cart-heading">YOUR CART</h1>
+        <p class="empty-cart-message">Your cart is currently empty.</p>
+        <a href="/" class="continue-shopping">CONTINUE SHOPPING</a>
+        <div class="share-section">
+            <a href="#" class="share-link">Share</a>
+        </div>
+    </div>
+</body>
+</html>
